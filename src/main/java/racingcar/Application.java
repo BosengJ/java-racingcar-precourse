@@ -8,7 +8,7 @@ public class Application {
 		final Scanner scanner = new Scanner(System.in);
 
 		// TODO 구현 진행
-		Car a = new Car("jun");
+
 		boolean checkInput = true;
 		boolean checkCar = true;
 		boolean checkN = true;
@@ -60,6 +60,7 @@ public class Application {
 		int randomNumber = utils.RandomUtils.nextInt(0, 9);
 		System.out.println("randomNUM: " + randomNumber);
 		Car[] c = new Car[carArray.length];
+
 		// carArray의 element 하나씩 받아 car 이름 선언해주고, random 값 지정해주기
 		for (int i=0; i< carArray.length; i++) {
 			c[i] = new Car(carArray[i]);
