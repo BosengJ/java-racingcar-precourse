@@ -61,12 +61,21 @@ public class Application {
 		System.out.println("randomNUM: " + randomNumber);
 
 		// carArray의 element 하나씩 받아 car 이름 선언해주고, random 값 지정해주기
-		Car[] c = new Car[carArray.length]; // carArray의 element 개수만큼, 주소값을 저장할 메모리를 할당해준다
-		for (int i=0; i< carArray.length; i++) {
-			c[i] = new Car(carArray[i]);
+		int [] randomArray;
+		randomArray = new int[carArray.length];
+		for (int i=0; i<randomArray.length; i++) {
+			int randomNumber = utils.RandomUtils.nextInt(0, 9);
+			randomArray[i] = randomNumber;
+		}
+		System.out.println("randomArray: " + Arrays.toString(randomArray));
+
+//		Car[] c = new Car[carArray.length]; // carArray의 element 개수만큼, 주소값을 저장할 메모리를 할당해준다
+//
+//		for (int i=0; i<carArray.length; i++) {
+//			c[i] = new Car(carArray[i]);
 //			c[i].printCarName();
 //			System.out.println("carName: " + carName);
-			System.out.println(carArray[i]);
+//			System.out.println(carArray[i]);
 		}
 	}
 }
