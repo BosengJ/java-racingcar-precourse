@@ -64,6 +64,7 @@ public class Game {
 				cars[j].distanceRun();
 				cars[j].PrintRunningImage();
 			}
+			System.out.println();
 		}
 	}
 
