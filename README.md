@@ -20,6 +20,10 @@
 - Find Max distance
 
 #### (3) Car
+- Car name
+- Car distance
+- Express the distance as "-"
+- Express the distance as Number
 
 ### 2. Utils
 #### RandomUtils
