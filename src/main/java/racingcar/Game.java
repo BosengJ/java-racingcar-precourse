@@ -56,4 +56,17 @@ public class Game {
 		return true;
 	}
 
+	// Game.playGame(CarList,playNum);
+	public static void playGame(String[] CarList, int playNum){
+		Car[] cars = generateCarclass(CarList);
+	}
+
+	public static Car[] generateCarclass(String[] CarList){
+		Car[] cars = new Car[CarList.length];
+		for (int i=0; i < CarList.length; i++){
+			cars[i] = new Car(CarList[i]);
+		}
+		return cars;
+	}
+
 }
