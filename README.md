@@ -27,6 +27,7 @@
 
 ### 2. Utils
 #### RandomUtils
+- Randomly extract numbers from 0 to 9
 
 <br>
 
