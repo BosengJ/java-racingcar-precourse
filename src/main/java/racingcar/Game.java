@@ -76,7 +76,7 @@ public class Game {
 		return cars;
 	}
 
-	public static int CalculateMaxVal(Car[] cars){
+	public static int calculateMaxVal(Car[] cars){
 		int maxVal = 0;
 		for (int i=0; i < cars.length; i++){
 			int carPosition = cars[i].getPosition();
@@ -85,6 +85,17 @@ public class Game {
 			}
 		}
 		return maxVal;
+	}
+
+	public static void chooseWinners(Car[] cars){
+		String winner = "최종 우승자: ";
+		int maxVal = calculateMaxVal(cars);
+		for (int i=0; i < cars.length; i++){
+			int carPosition = cars[i].getPosition();
+			if (carPosition == maxVal){
+				winner += cars[i].getName() + ", ";
+			}
+		}
 	}
 
 }
