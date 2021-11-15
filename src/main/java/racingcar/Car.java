@@ -16,7 +16,7 @@ public class Car {
             ++position;
         }
     }
-    // print the moving image
+
     public void PrintRunningImage(){
         String img = "";
         for (int i=0; i < position; i++){
