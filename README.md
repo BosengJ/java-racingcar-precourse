@@ -7,10 +7,17 @@
 - Scanner
 - Car List
 - Number of Game Plays
-- Game Result 
+- Play Game (Print Result)
 
 #### (2) CarRacingGame
-- 
+- Generate Car List
+- Check car names under 5
+- Number of Game Plays
+- Check if play count is a number
+- Play Game
+- Generate Car class
+- Choose winners
+- Find Max distance
 
 #### (3) Car
 
