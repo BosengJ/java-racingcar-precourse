@@ -56,7 +56,6 @@ public class Game {
 		return true;
 	}
 
-	// Game.playGame(CarList,playNum);
 	public static void playGame(String[] CarList, int playNum){
 		Car[] cars = generateCarclass(CarList);
 		for(int i=0; i < playNum; i++){
@@ -66,6 +65,7 @@ public class Game {
 			}
 			System.out.println();
 		}
+		chooseWinners(cars);
 	}
 
 	public static Car[] generateCarclass(String[] CarList){
@@ -74,6 +74,17 @@ public class Game {
 			cars[i] = new Car(CarList[i]);
 		}
 		return cars;
+	}
+
+	public static int CalculateMaxVal(Car[] cars){
+		int maxVal = 0;
+		for (int i=0; i < cars.length; i++){
+			int carPosition = cars[i].getPosition();
+			if (carPosition > maxVal) {
+				maxVal = carPosition;
+			}
+		}
+		return maxVal;
 	}
 
 }
