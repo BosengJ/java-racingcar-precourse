@@ -28,6 +28,8 @@ public class Car {
     public int getPosition(){
         return position;
     }
-    // 추가 기능 구현
-    // Express the distance as Number
+
+    public String getName(){
+        return name;
+    }
 }
