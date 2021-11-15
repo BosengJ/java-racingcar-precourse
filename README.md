@@ -15,14 +15,14 @@
 - Number of Game Plays (O)
 - Check if play count is a number (O)
 - Play Game (~)
-- Generate Car class
+- Generate Car class (O)
 - Choose winners
 - Find Max distance
 
 #### (3) Car
 - Car name (O)
-- Car distance
-- Express the distance as "-"
+- Car distance (O)
+- Express the distance as "-" (O)
 - Express the distance as Number
 
 ### 2. Utils
