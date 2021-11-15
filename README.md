@@ -20,7 +20,7 @@
 - Find Max distance
 
 #### (3) Car
-- Car name
+- Car name (O)
 - Car distance
 - Express the distance as "-"
 - Express the distance as Number
