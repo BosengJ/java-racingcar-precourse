@@ -2,18 +2,20 @@
 
 ## ⭐️ 구현 기능 목록
 
-### Input
-- 경주할 자동차 이름 입력 (콤마로 구분)
-- 시도할 횟수 n번 입력
+### 1. Racing Car
+#### (1) Application
+- Scanner
+- Car List
+- Number of Game Plays
+- Game Result 
 
-### Game
-- 자동차별 random 값 구한 후 조건에 따라 Go/Stop 결정 (Go: 4이상 / Stop: 3이하)
-- 각 차수별 실행 결과 출력
-- 가장 많은 이동을 한 자동차를 우승자로 출력 (한 명 이상 가능)
+#### (2) CarRacingGame
+- 
 
-### ERROR
-- "[ERROR] 자동차 이름은 5자 이하만 가능합니다.": 자동차 이름이 5자 이상 입력했을 경우
-- "[ERROR] 시도 횟수는 숫자여야 합니다.": 시도횟수 입력시, 숫자가 아닌 다른 문자열을 입력했을 경우
+#### (3) Car
+
+### 2. Utils
+#### RandomUtils
 
 <br>
 
