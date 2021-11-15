@@ -28,4 +28,19 @@ public class Game {
 		}
 		return overfive;
 	}
+
+	//int playNum = Game.playGameNtimes(scanner);
+	public static int playGameNtimes(Scanner scanner){
+		int playNum = 0;
+		boolean flag = true;
+		while(flag){
+			System.out.println("시도할 회수는 몇회인가요?");
+			String inputData = scanner.nextLine();
+			// inputData가 숫자인지 판별해주는 함수
+			// if 숫자 -> flag = false
+			// 아니면, 반복
+			System.out.println("[ERROR] 시도 횟수는 숫자여야 한다.");
+		}
+		return playNum;
+	}
 }
