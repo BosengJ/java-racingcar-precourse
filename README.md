@@ -9,7 +9,7 @@
 - Number of Game Plays
 - Play Game (Print Result)
 
-#### (2) CarRacingGame
+#### (2) Game
 - Generate Car List
 - Check car names under 5
 - Number of Game Plays
