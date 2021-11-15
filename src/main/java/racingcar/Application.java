@@ -8,6 +8,8 @@ public class Application {
 		final Scanner scanner = new Scanner(System.in);
 		String[] CarList = Game.generateCarList(scanner);
 		int playNum = Game.playGameNtimes(scanner);
+		
+//		input test
 //		System.out.println(Arrays.toString(CarList));
 //		System.out.println(playNum);
 
