@@ -15,7 +15,5 @@ public class Application {
 //		System.out.println(Arrays.toString(CarList));
 //		System.out.println(playNum);
 
-		// 기능 구현 목록
-		// Play Game (Print Result)
 	}
 }
