@@ -4,25 +4,25 @@
 
 ### 1. Racing Car
 #### (1) Application
-- Scanner (O)
-- Car List (O)
-- Number of Game Plays (O)
-- Play Game (Print Result) (~)
+- Scanner 
+- Car List 
+- Number of Game Plays 
+- Play Game (Print Result) 
 
 #### (2) Game
-- Generate Car List (O)
-- Check car names under 5 (O)
-- Number of Game Plays (O)
-- Check if play count is a number (O)
-- Play Game (~)
-- Generate Car class (O)
+- Generate Car List 
+- Check car names under 5 
+- Number of Game Plays 
+- Check if play count is a number 
+- Play Game 
+- Generate Car class 
 - Choose winners
 - Find Max distance
 
 #### (3) Car
-- Car name (O)
-- Car distance (O)
-- Express the distance as "-" (O)
+- Car name 
+- Car distance 
+- Express the distance as "-" 
 - Express the distance as Number
 
 ### 2. Utils
