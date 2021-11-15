@@ -36,11 +36,24 @@ public class Game {
 		while(flag){
 			System.out.println("시도할 회수는 몇회인가요?");
 			String inputData = scanner.nextLine();
-			// inputData가 숫자인지 판별해주는 함수
-			// if 숫자 -> flag = false
-			// 아니면, 반복
+			if (checkNumber(inputData)){
+				flag = false;
+				playNum = Integer.parseInt(inputData);
+				break;
+			}
 			System.out.println("[ERROR] 시도 횟수는 숫자여야 한다.");
 		}
 		return playNum;
 	}
+
+	public static boolean checkNumber(String inputData){
+		for(int i=0; i < inputData.length(); i++){
+			int askiiNum = (int)inputData.charAt(i);
+			if ((askiiNum < 48) || (askiiNum > 57)){
+				return false;
+			}
+		}
+		return true;
+	}
+
 }
