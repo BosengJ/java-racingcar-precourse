@@ -59,6 +59,12 @@ public class Game {
 	// Game.playGame(CarList,playNum);
 	public static void playGame(String[] CarList, int playNum){
 		Car[] cars = generateCarclass(CarList);
+		for(int i=0; i < playNum; i++){
+			for(int j=0; j < cars.length; j++){
+				cars[j].distanceRun();
+				cars[j].PrintRunningImage();
+			}
+		}
 	}
 
 	public static Car[] generateCarclass(String[] CarList){
