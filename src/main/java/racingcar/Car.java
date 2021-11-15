@@ -25,7 +25,9 @@ public class Car {
         System.out.println(name + ":" + img);
     }
 
-
+    public int getPosition(){
+        return position;
+    }
     // 추가 기능 구현
     // Express the distance as Number
 }
