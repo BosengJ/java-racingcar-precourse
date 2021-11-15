@@ -9,6 +9,7 @@ public class Application {
 		String[] CarList = Game.generateCarList(scanner);
 		int playNum = Game.playGameNtimes(scanner);
 		System.out.println("\n실행결과");
+		Game.playGame(CarList,playNum);
 
 //		input test
 //		System.out.println(Arrays.toString(CarList));
