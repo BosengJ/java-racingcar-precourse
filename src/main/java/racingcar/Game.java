@@ -96,6 +96,8 @@ public class Game {
 				winner += cars[i].getName() + ", ";
 			}
 		}
+		winner = winner.substring(0,winner.length()-2);
+		System.out.println(winner);
 	}
 
 }
